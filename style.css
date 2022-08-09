@@ -11,10 +11,28 @@ background-color: black;
     height: 80px;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
-    background-color: tomato;
-    padding-top: 20px;
+    background-color: rgb(240, 240, 240);
+    align-items: center;
+    gap: 25px;
 
+}
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: black;
+}
+
+.foto-bolo {
+    width: 380px;
 }
